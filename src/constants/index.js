@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like Angular and React, as well as back-end technologies like Django, Node.js, .NET, PostgreSQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -30,47 +30,47 @@ export const EXPERIENCES = [
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2025 - 2025",
+    role: "Full Stack Developer (Internship)",
+    company: "RedRiver Consulting AB",
+    description: `Contributed to the development of web applications using TypeScript, Angular, and C#. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: [".NET8", "Angular", "TypeScript", "C#", "MongoDB"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Fullstack CRUD App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fullstack CRUD application that allows users to create, read, update, and delete records. Built with Angular for the frontend and C# for the backend.",
+    technologies: ["HTML", "CSS", "Angular", "C#", "TypeScript", "PostgreSQL"],
   },
   {
-    title: "Task Management App",
+    title: "LawForYou - Legal Consultation Platform",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "E-commerce platform connecting clients with legal professionals for consultations and advice.",
+    technologies: ["HTML", "CSS", "Python", "Django", "PostgreSQL"],
   },
   {
-    title: "Portfolio Website",
+    title: "90´s Football Quiz",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "The quiz is dedicated to football fans of the 90s.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Blogging Platform",
+    title: "The Brotherhood of Saint elder Joseph",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "The Brotherhood of Saint Joseph is site which is dedicated to the saint of our days and his disciples. On this site a person will also find the answer to the question of how to deal with bad thoughts.",
+    technologies: ["HTML", "CSS"],
   },
 ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: "m.ataev@mail.ru",
 };
