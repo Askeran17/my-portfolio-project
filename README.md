@@ -1,12 +1,83 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, modern single-page portfolio built with Vite, React, and Tailwind CSS. It showcases my profile, skills, and projects with a clean UI and responsive design.
 
-Currently, two official plugins are available:
+Live Demo: https://my-portfolio-project-lemon-seven.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Single-page layout with smooth structure
+- Responsive design optimized for mobile and desktop
+- Fast development and hot reload via Vite
+- Utility-first styling with Tailwind CSS
+- Social links (GitHub, LinkedIn)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React (JavaScript)
+- Vite
+- Tailwind CSS
+- React Icons
+
+## Getting Started
+
+Prerequisites:
+- Node.js 18+ and npm
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173/`.
+
+## Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+This site is deployed on Vercel.
+
+- URL: https://my-portfolio-project-lemon-seven.vercel.app/
+- Platform: Vercel (automatic deployments from `main`)
+
+## Project Structure
+
+```
+src/
+  components/
+    Navbar.jsx
+    Hero.jsx
+  assets/
+  App.jsx
+  main.jsx
+  index.css
+```
+
+## Customization
+
+- Update content in components like `Navbar.jsx` and `Hero.jsx`.
+- Edit `src/index.css` if you need additional global styles; Tailwind is imported there.
+- Replace images in `src/assets/` as needed.
+
+## License
+
+This project is for personal portfolio purposes.
