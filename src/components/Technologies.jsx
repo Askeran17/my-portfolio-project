@@ -43,21 +43,21 @@ const Technologies = () => {
             animate="animate"
             variants={iconVariants(3)}
             className="p-4">
-                <TbBrandAngular className="text-7xl"/>
+                <TbBrandAngular className="text-red-700"/>
             </motion.div>
             <motion.div 
             initial="initial"
             animate="animate"
             variants={iconVariants(5)}
             className="p-4">
-                <SiMongodb className="text-7xl text-cyan-500"/>
+                <SiMongodb className="text-7xl text-emerald-500" />
             </motion.div>
             <motion.div 
             initial="initial"
             animate="animate"
             variants={iconVariants(2)}
             className="p-4">
-                <DiPython className="text-7xl text-red-700"/>
+                <DiPython className="text-7xl text-yellow-400 drop-shadow-[0_0_2px_#3776AB]" />
             </motion.div>
             <motion.div 
             initial="initial"
