@@ -4,7 +4,7 @@ A fast, modern single-page portfolio built with Vite, React, and Tailwind CSS. I
 
 Live Demo: https://my-portfolio-project-lemon-seven.vercel.app/
 
-![Portfolio Preview](![Portfolio Preview](./src/assets/my-portfolio-all-screens.png))
+![Portfolio Preview](./src/assets/my-portfolio-all-screens.png)
 
 ## Features
 
