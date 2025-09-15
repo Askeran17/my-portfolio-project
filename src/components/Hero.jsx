@@ -30,8 +30,8 @@ const Hero = () => {
                     src={profilePic} 
                     alt="Mikhail Atayev" 
                     className="border border-stone-900 rounded-3xl" 
-                    width={650} 
-                    height={650}
+                    width={450} 
+                    height={450}
                     initial={{ opacity: 0, x: 100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 1.5 }}/>
