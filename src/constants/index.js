@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     company: "RedRiver Consulting AB",
     description: `Contributed to the development of web applications using TypeScript, Angular, and C#. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: [".NET8", "Angular", "TypeScript", "C#", "MongoDB"],
-    reference: "/public/RR Consulting-resume.pdf",
+    reference: "/RR Consulting-resume.pdf",
   },
 ];
 
