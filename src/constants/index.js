@@ -11,11 +11,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2025 - 2025",
+    year: "jan 2025 - jul 2025",
     role: "Full Stack Developer (Internship)",
     company: "RedRiver Consulting AB",
     description: `Contributed to the development of web applications using TypeScript, Angular, and C#. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: [".NET8", "Angular", "TypeScript", "C#", "MongoDB"],
+    technologies: [".NET8", "Angular", "TypeScript", "C#"],
     reference: "/RR Consulting-resume.pdf",
   },
 ];
